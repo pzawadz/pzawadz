@@ -1,1 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T11:26:20.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.7.1" etag="HXdtx1vzXt0lFuJHcP4Y" type="github"><diagram id="lhLcvNRfwh1qnso68RDl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-22T09:10:43.090Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="8VNEEYtQNQLlOkQVVgnC" version="15.7.1" type="github">
+  <diagram id="lhLcvNRfwh1qnso68RDl" name="Page-1">
+    <mxGraphModel dx="1417" dy="549" grid="0" gridSize="6" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kp00INYbdR171YbBhtLt-2" value="Logical&amp;nbsp;&lt;br&gt;Storage&amp;nbsp;&lt;br&gt;LUN Array" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-4" value="Node #1&lt;br&gt;PROD" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;" vertex="1" parent="1">
+          <mxGeometry x="115" y="97" width="225" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-5" value="Node #2&lt;br&gt;STAND BY" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="98" width="222" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.308;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kp00INYbdR171YbBhtLt-2" target="kp00INYbdR171YbBhtLt-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="360" as="sourcePoint" />
+            <mxPoint x="300" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=40;exitPerimeter=0;" edge="1" parent="1" source="kp00INYbdR171YbBhtLt-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="400.03999999999996" as="sourcePoint" />
+            <mxPoint x="620" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-12" value="Hypervisor - Oracle LVM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="273" width="225" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-13" value="Hypervisor - Oracle LVM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="272" width="212" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-16" value="HA Cluster" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kp00INYbdR171YbBhtLt-12" target="kp00INYbdR171YbBhtLt-13">
+          <mxGeometry x="0.0909" y="30" width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="340" y="270" as="sourcePoint" />
+            <mxPoint x="440" y="170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-20" value="Storage Disk Array&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="280" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-21" value="Storage Disk Array&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="540" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-22" value="" style="endArrow=none;html=1;rounded=0;fontSize=17;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kp00INYbdR171YbBhtLt-20" target="kp00INYbdR171YbBhtLt-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="580" as="sourcePoint" />
+            <mxPoint x="350" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-23" value="" style="endArrow=none;html=1;rounded=0;fontSize=9;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="579.5" y="590" as="sourcePoint" />
+            <mxPoint x="579.5" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-27" value="" style="endArrow=none;html=1;rounded=0;fontSize=17;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kp00INYbdR171YbBhtLt-18" target="kp00INYbdR171YbBhtLt-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="326" y="596" as="sourcePoint" />
+            <mxPoint x="326" y="546" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-30" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=8;strokeWidth=2;entryX=0;entryY=0;entryDx=0;entryDy=90;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kp00INYbdR171YbBhtLt-18" target="kp00INYbdR171YbBhtLt-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="434" as="sourcePoint" />
+            <mxPoint x="350" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-31" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=8;strokeWidth=2;entryX=1;entryY=0;entryDx=0;entryDy=90;entryPerimeter=0;exitX=0.4;exitY=-0.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kp00INYbdR171YbBhtLt-19" target="kp00INYbdR171YbBhtLt-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="326" y="486" as="sourcePoint" />
+            <mxPoint x="406" y="446" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-18" value="IBM SVC&lt;br&gt;Storage Virtualizator" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="260" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-19" value="IBM SVC&lt;br&gt;Storage Virtualizator" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-32" value="VM#2 - hard partition - 8 cores&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;verticalAlign=bottom;align=left;" vertex="1" parent="1">
+          <mxGeometry x="126" y="205" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-14" value="OracleDB&lt;br&gt;EE" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="60" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-33" value="VM#1 - hard partition - 8 cores&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;verticalAlign=bottom;align=left;" vertex="1" parent="1">
+          <mxGeometry x="122" y="114" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-15" value="Oracle&lt;br&gt;Weblogic Suite&amp;nbsp;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="218" y="110" width="105" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-34" value="VM#1&#39; - hard partition - 8 cores&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;verticalAlign=bottom;align=left;" vertex="1" parent="1">
+          <mxGeometry x="568" y="115" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kp00INYbdR171YbBhtLt-35" value="VM#2&#39; - hard partition - 8 cores&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;verticalAlign=bottom;align=left;" vertex="1" parent="1">
+          <mxGeometry x="568" y="205" width="206" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
