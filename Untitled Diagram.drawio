@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T17:54:35.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.81 Safari/537.36" etag="E9LizB1MJUFPYmzZMHHd" version="16.5.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-01T16:27:39.258Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="7Q24TiRglkrv4gfJeFC9" version="16.5.6" type="github" pages="2">
   <diagram name="Page-1" id="55a83fd1-7818-8e21-69c5-c3457e3827bb">
     <mxGraphModel dx="1248" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -168,16 +168,16 @@
         <mxCell id="8RMtgaDD9B2TRdj670dk-30" value="Other&amp;nbsp;&lt;br&gt;Sources" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=#FFFFFF;" parent="8RMtgaDD9B2TRdj670dk-1" vertex="1">
           <mxGeometry x="40" y="550" width="70" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="8RMtgaDD9B2TRdj670dk-32" value="Aplikacja&lt;br&gt;kliencka #2" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;labelBackgroundColor=#FFFFFF;" parent="8RMtgaDD9B2TRdj670dk-1" vertex="1">
+        <mxCell id="8RMtgaDD9B2TRdj670dk-32" value="Aplikacja #2" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;labelBackgroundColor=#FFFFFF;" parent="8RMtgaDD9B2TRdj670dk-1" vertex="1">
           <mxGeometry x="270" y="155" width="116.67" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8RMtgaDD9B2TRdj670dk-33" value="Aplikacja&lt;br&gt;kliencka #3" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;labelBackgroundColor=#FFFFFF;" parent="8RMtgaDD9B2TRdj670dk-1" vertex="1">
+        <mxCell id="8RMtgaDD9B2TRdj670dk-33" value="Aplikacja #3" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;labelBackgroundColor=#FFFFFF;" parent="8RMtgaDD9B2TRdj670dk-1" vertex="1">
           <mxGeometry x="407.34" y="150" width="133.33" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8RMtgaDD9B2TRdj670dk-34" value="Aplikacja&lt;br&gt;kliencka #4" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;labelBackgroundColor=#FFFFFF;" parent="8RMtgaDD9B2TRdj670dk-1" vertex="1">
+        <mxCell id="8RMtgaDD9B2TRdj670dk-34" value="Aplikacja #4" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;labelBackgroundColor=#FFFFFF;" parent="8RMtgaDD9B2TRdj670dk-1" vertex="1">
           <mxGeometry x="550" y="150" width="133.33" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8RMtgaDD9B2TRdj670dk-35" value="Aplikacja &lt;br&gt;kliencka #1" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;labelBackgroundColor=#FFFFFF;" parent="8RMtgaDD9B2TRdj670dk-1" vertex="1">
+        <mxCell id="8RMtgaDD9B2TRdj670dk-35" value="Aplikacja #1" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;labelBackgroundColor=#FFFFFF;" parent="8RMtgaDD9B2TRdj670dk-1" vertex="1">
           <mxGeometry x="136.66" y="155" width="116.67" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8RMtgaDD9B2TRdj670dk-36" value="Other&amp;nbsp;&lt;br&gt;Sources" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=#FFFFFF;" parent="8RMtgaDD9B2TRdj670dk-1" vertex="1">
